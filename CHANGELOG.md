@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 The format is based on [Keep a Changelog](http://keepachangelog.com/) 
 and this project adheres to [Semantic Versioning](http://semver.org/).
 
+## [Unreleased]
+### Changed
+- Migrated from .NET 8 to .NET 10. It will prompt to install runtime if you don't have it already (see reason below) (Author: @Gesugao-san)
+
+### Fixed
+- `DOTNET_ROOT` environment variable without .NET runtime would cause a "No runtime found"-error (Author: @Gesugao-san)
+- "Select a GPU interactively before running unattended"-error appearing for normal runs
+- Client updates now updates WinGet package entry
+
 ## [1.29.2] - 2026-10-26
 ### Fixed
 - Added shared cleanup retry handling for transient antivirus and file locks (FileSystemHandler)
