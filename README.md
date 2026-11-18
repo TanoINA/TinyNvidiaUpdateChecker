@@ -10,7 +10,7 @@ Made by Windows power users, for Windows power users.
 
 ## Installation
 
-1. [Download the latest version](https://github.com/TanoINA/TinyNvidiaUpdateChecker-LOQ/releases)
+1. [Download the latest version](https://github.com/TanoINA/TinyNvidiaUpdateChecker/releases)
 2. Start TinyNvidiaUpdateChecker.exe
 3. (Optional) Configure [execute when logging in](https://github.com/HawaiiBeach/TinyNvidiaUpdateChecker/wiki/Quiet-runs-on-user-login)
 
